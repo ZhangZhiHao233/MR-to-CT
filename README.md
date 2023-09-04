@@ -11,6 +11,7 @@ SimpleITK==2.2.1
 scipy==1.6.1
 tqdm
 ```
+Docker image can be obtained from DockerHub
 # Dataset
 # Train&Test
 # Pretrained Models
