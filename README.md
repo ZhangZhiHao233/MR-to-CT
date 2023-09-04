@@ -12,9 +12,15 @@ scipy==1.6.1
 tqdm
 ```
 # Installation
+Use docker image
 ```
-git clone https://github.com/icon-lab/SynDiff
-cd SynDiff
+docker pull zhangvae/mr_to_ct
+nvidia-docker run -itd --shm-size 128g  -v [/your/path/]:/mnt/ [imageid] /bin/bash
+```
+Pull the code
+```
+git clone https://github.com/ZhangZhiHao233/MR-to-CT.git
+cd MR-to-CT
 ```
 # Dataset
 # Train&Test
