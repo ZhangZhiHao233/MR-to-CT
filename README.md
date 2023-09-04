@@ -11,7 +11,11 @@ SimpleITK==2.2.1
 scipy==1.6.1
 tqdm
 ```
-Docker image can be obtained from DockerHub
+# Installation
+```
+git clone https://github.com/icon-lab/SynDiff
+cd SynDiff
+```
 # Dataset
 # Train&Test
 # Pretrained Models
