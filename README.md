@@ -5,6 +5,11 @@
 # Dependencies
 ```
 torch==1.8.0
+torchvision==0.9.0
+wandb==0.15.9
+SimpleITK==2.2.1
+scipy==1.6.1
+tqdm
 ```
 # Dataset
 # Train&Test
