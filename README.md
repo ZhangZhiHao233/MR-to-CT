@@ -12,7 +12,7 @@ scipy==1.6.1
 tqdm
 ```
 # Installation
-Use our docker image:
+[Optional]Use our docker image:
 ```
 docker pull zhangvae/mr_to_ct
 nvidia-docker run -itd --shm-size 128g  -v [/your/path/]:/mnt/ [imageid] /bin/bash
