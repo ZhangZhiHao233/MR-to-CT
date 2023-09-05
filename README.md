@@ -64,3 +64,19 @@ python dataset.py
 python train_test.py
 ```
 # Pretrained Models
+We have a pretrained model for the translation of brain and pelvis.
+Load the checkpoint:
+```
+#stage1 = MyUNet_plus(32).to(device)
+#stage2 = MyUNet(32).to(device)
+#resbranch = MyUNet_plus(32, act=False).to(device)
+
+checkpoint = torch.load(last_checkpoint_name)
+stage1.load_state_dict(checkpoint['model_stage1'])
+stage2.load_state_dict(checkpoint['model_stage2'])
+resbranch.load_state_dict(checkpoint['model_resbranch'])
+
+last_epoch = checkpoint['epoch']
+last_loss = checkpoint['loss']
+print('load checkpoint from epoch {} loss:{}'.format(last_epoch, last_loss))
+```
