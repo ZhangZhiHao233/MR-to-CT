@@ -25,5 +25,32 @@ cd MR-to-CT
 # Dataset
 We use the dataset from [synthRAD Challenge](https://synthrad2023.grand-challenge.org/Data/).
 Data structure is like
+```
+Brain_Pelvis
+-train
+|-brain
+  |-1BA001
+    |-ct.nii.gz
+    |-mr.nii.gz
+    |-mask.nii.gz
+  |- ...
+  |-1BA005
+    |-ct.nii.gz
+    |-mr.nii.gz
+    |-mask.nii.gz
+|-pelvis
+|-1PA001
+    |-ct.nii.gz
+    |-mr.nii.gz
+    |-mask.nii.gz
+|- ...
+|-1PA004
+    |-ct.nii.gz
+    |-mr.nii.gz
+    |-mask.nii.gz
+
+-test
+|- ...
+```
 # Train&Test
 # Pretrained Models
