@@ -64,7 +64,7 @@ python dataset.py
 python train_test.py
 ```
 # Pretrained Models
-We have a pretrained model for the translation of brain and pelvis.
+We have a [pretrained model](https://drive.google.com/file/d/17Dv3G06QUHHzYg4F6vpsy2tDPkTbjTi9/view?usp=drive_link) for the translation of brain and pelvis.
 Load the checkpoint:
 ```
 #stage1 = MyUNet_plus(32).to(device)
