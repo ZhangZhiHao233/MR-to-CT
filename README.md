@@ -71,6 +71,7 @@ Load the checkpoint:
 #stage2 = MyUNet(32).to(device)
 #resbranch = MyUNet_plus(32, act=False).to(device)
 
+# last_checkpoint_name = 'pretrained.pth'
 checkpoint = torch.load(last_checkpoint_name)
 stage1.load_state_dict(checkpoint['model_stage1'])
 stage2.load_state_dict(checkpoint['model_stage2'])
