@@ -39,18 +39,28 @@ Brain_Pelvis
     |-mr.nii.gz
     |-mask.nii.gz
 |-pelvis
-|-1PA001
+  |-1PA001
     |-ct.nii.gz
     |-mr.nii.gz
     |-mask.nii.gz
-|- ...
-|-1PA004
+  |- ...
+  |-1PA004
     |-ct.nii.gz
     |-mr.nii.gz
     |-mask.nii.gz
 
 -test
-|- ...
+|-brain
+  |- ...
+|-pelvis
+  |- ...
+```
+Preprocess the data and convert it to .npz files
+```
+python dataset.py
 ```
 # Train&Test
+```
+python train_test.py
+```
 # Pretrained Models
