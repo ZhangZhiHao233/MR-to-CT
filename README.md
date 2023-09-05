@@ -23,6 +23,7 @@ git clone https://github.com/ZhangZhiHao233/MR-to-CT.git
 cd MR-to-CT
 ```
 # Dataset
-We use the dataset from synthRAD Challenge
+We use the dataset from [synthRAD Challenge](https://synthrad2023.grand-challenge.org/Data/).
+Data structure is like
 # Train&Test
 # Pretrained Models
