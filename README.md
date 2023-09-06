@@ -24,6 +24,7 @@ cd MR-to-CT
 ```
 # Dataset
 We use the dataset from [synthRAD Challenge](https://synthrad2023.grand-challenge.org/Data/).[Training set](https://drive.google.com/drive/folders/1Cr64R_U3TR7ZzwaNvr4AllS7Zu64TgOL?usp=drive_link)
+
 Data structure is like
 ```
 Brain_Pelvis
